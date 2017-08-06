@@ -1,6 +1,6 @@
 <?php
 
-namespace SlifeC5Events\Event;
+namespace SlifeCommunityStore\Event;
 
 use Slife\Integration\BasicEvent;
 

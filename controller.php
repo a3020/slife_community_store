@@ -79,7 +79,7 @@ class Controller extends BasePackage
 
         foreach ($this->supportedEvents as $eventHandle) {
             $className = $th->camelcase($eventHandle);
-            $eventClass = $this->app->make('SlifeC5Events\Event\\'.$className, [
+            $eventClass = $this->app->make('SlifeCommunityStore\Event\\'.$className, [
                 'package' => $this->getPackageEntity(),
             ]);
 
